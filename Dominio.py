@@ -1,5 +1,3 @@
-from contextlib import nullcontext
-
 from PIL import Image
 import os
 import time
@@ -72,4 +70,5 @@ if __name__ == '__main__':
 
     fin = time.time()
     print(f"\n Tiempo total de procesamiento paralelo: {fin - inicio:.6f} segundos")
+
     limpiar_imagenes_grises(directorio_imagenes)
